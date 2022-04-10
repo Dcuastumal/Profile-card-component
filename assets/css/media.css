@@ -1,0 +1,47 @@
+@media (min-width: 1440px) {
+    .circle-top{
+        position: fixed;
+        left: -15%;
+        bottom: 40%;
+        z-index: -99;
+    }
+    .circle-bottom{
+        position: fixed;
+        left: 50%;
+        top: 55%;
+        z-index: -99;
+    }
+    h1,
+    h4 {
+        font-size: 2.2rem;
+    }
+    .main {
+        width: 55rem;
+        height: 52rem;
+    }
+    .b-profile {
+        width: 550px;
+        height: 180px;
+    }
+    .img-profile {
+        height: 110px;
+    }
+    .img-profile::after{
+        bottom: 30px;
+        left: 214px;
+        width: 22%;
+    }    
+    .info{
+        transform: translateY(-3rem);
+    }
+    .lnd{
+        transform: translateY(-4rem);
+        font-size: 18px;
+    }
+    .stats {
+        transform: translateY(0rem);
+    } 
+    .box{
+        margin: 10px 60px;
+    }
+}
