@@ -1,3 +1,8 @@
+@media (max-width: 1439px) {
+    footer {
+        display: none;
+    }
+}
 @media (min-width: 1440px) {
     .circle-top{
         position: fixed;
@@ -32,14 +37,17 @@
         width: 22%;
     }    
     .info{
-        transform: translateY(-3rem);
+        margin-top: -2rem;
+        /* transform: translateY(2rem); */
     }
     .lnd{
-        transform: translateY(-4rem);
+        margin-top: 8rem;
+        /* transform: translateY(-4rem); */
         font-size: 18px;
     }
     .stats {
-        transform: translateY(0rem);
+        margin-top: -3rem;
+        /* transform: translateY(0rem); */
     } 
     .box{
         margin: 10px 60px;

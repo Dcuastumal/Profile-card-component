@@ -3,7 +3,12 @@ html {
   font-size: 62.5%;
   font-family: 'Kumbh Sans', sans-serif;
 }
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
+  overflow: hidden;
   font-size: 1rem;
   background-color: var(--Dark-cyan);
   letter-spacing: 1.5px;
@@ -26,10 +31,10 @@ body {
 }
 h1,
 h4 {
-  color: var(--Dark-desaturated-blue);
-  font-size: 1.8rem;
-  padding-bottom: 1rem;
-  letter-spacing: 0;
+    color: var(--Dark-desaturated-blue);
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    letter-spacing: 0;
 }
 p{
     transform: translateY(-6rem);
@@ -37,15 +42,13 @@ p{
     font-weight: 400;
     color: var(--Dark-gray);
 }
-.lnd{
-    font-size: 15px;
-}
 .main {
-  width: 33rem;
-  height: 42rem;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 15px;
+    margin-bottom: 100px;
+    width: 33rem;
+    height: 42rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
 }
 .b-profile {
     width: 330px;
@@ -68,27 +71,31 @@ p{
     z-index: -1;
 }
 .info{
-    transform: translateY(-5rem);
+     margin-top: -3rem;
+    /* transform: translateY(-5rem); */
 }
 .age{
     color: var(--Dark-gray);
     margin-left: 1rem;
     font-weight: 400;
 }
-hr{
-    display: none;
+.lnd{
+    font-size: 15px;
+    margin-top: 8rem;
 }
 .stats {
     border-top: solid 1px hsl(0, 5%, 78%);
     display: flex;
     justify-content: center;
-    transform: translateY(-4rem);
+    margin-top: -3.5rem;
+    /* transform: translateY(-4rem); */
 }
 .stats h4{
     cursor: pointer;
 }
 .stats p {
-    transform: translateY(-3rem);
+    margin-top: 5rem;
+    /* transform: translateY(-3rem); */
 }
 .box{
     margin: 10px 30px;
@@ -98,3 +105,4 @@ footer {
     top: 800px;
     position: absolute;
 }
+
